@@ -270,21 +270,6 @@ The pipeline supports the following 13 TEL / MLRS vehicle classes:
 
 ---
 
-## Citation
-
-If you use this pipeline in your research, please cite:
-
-```bibtex
-@article{difftrans_tel_2025,
-  title   = {Diff-Trans-TEL: A Three-Stage Diffusion-Transformer Pipeline
-             for TEL Data Augmentation in Aerial Imagery},
-  author  = {Kwon, Sumin and others},
-  year    = {2025}
-}
-```
-
----
-
 ## Acknowledgements
 
 - [Semantic Augmentation (Trabucco et al., 2023)](https://github.com/brandontrabucco/da-fusion) — Textual Inversion augmentation framework
