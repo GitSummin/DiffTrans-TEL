@@ -253,20 +253,20 @@ python generate_image.py \
 
 The pipeline supports the following 13 TEL / MLRS vehicle classes:
 
-| Class Name | Description |
-|:---|:---|
-| Buk-M2 9M317 | Medium-range SAM TEL |
-| S-400 | Long-range SAM TEL |
-| SA-22 Pantsir-S | Short-range gun-missile system |
-| Tor / Tor-M2DT | Short-range SAM TEL |
-| Pantsir-SA | Arctic variant |
-| RS-24 Yars | ICBM MREL |
-| 9K720 Iskander | Short-range ballistic missile TEL |
-| 3K60 Bal | Anti-ship missile launcher |
-| BM-30 Smerch | Heavy MLRS |
-| ISDM Zemledeliye | Mine-laying system |
-| TOS | Thermobaric MLRS |
-| etc | Miscellaneous TEL-like vehicles |
+| Class Name | 
+|:---|
+| Buk-M2 9M317 | 
+| S-400 |
+| SA-22 Pantsir-S | 
+| Tor / Tor-M2DT | 
+| Pantsir-SA |
+| RS-24 Yars |
+| 9K720 Iskander |
+| 3K60 Bal | 
+| BM-30 Smerch | 
+| ISDM Zemledeliye | 
+| TOS |
+| etc |
 
 ---
 
