@@ -1,0 +1,95 @@
+# ============================================================
+# Diff-Trans-TEL — .gitignore
+# ============================================================
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Packaging
+*.egg-info/
+*.egg
+dist/
+build/
+develop-eggs/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+
+# Claude Code project settings
+.claude/
+
+# ============================================================
+# Stage 1 runtime outputs
+# (fine_tune.py saves tokens here; generate_images.py saves here)
+# ============================================================
+stage1_diffusion_aug/tel-tokens/
+stage1_diffusion_aug/output/
+
+# ============================================================
+# Stage 2 runtime outputs
+# (extract_masks.py  → extracted_results/;
+#  insert_objects.py → composites/)
+# ============================================================
+stage2_compositing/extracted_results/
+stage2_compositing/composites/
+
+# ============================================================
+# Stage 3 runtime outputs
+# (generate_image.py → final_augmented/;
+#  train.py          → networks/0000N-.../)
+# ============================================================
+stage3_inpainting/networks/0000*/
+stage3_inpainting/networks/pretrained/
+stage3_inpainting/final_augmented/
+
+# ============================================================
+# Binary model / data files (never commit large binaries)
+# ============================================================
+*.pkl
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# ============================================================
+# Archives and misc
+# ============================================================
+*.zip
+*.tar.gz
+*.rar
+
+# Logs and metrics
+*.log
+*.jsonl
+*.tfevents.*
+
+# Paper PDF (not code)
+TEL.pdf
+
+# ============================================================
+# Result images — allow only the curated results/ folder
+# ============================================================
+*.png
+*.jpg
+*.jpeg
+!results/
+!results/*.png
+!results/*.jpg
